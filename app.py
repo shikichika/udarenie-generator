@@ -157,7 +157,7 @@ st.write("\n")
 st.write("\n")
 st.write("\n")     
 
-st.text_input('ウダレーニエ付き (С ударением)', asyncio.run(udarenie(text)))
+st.text_area('ウダレーニエ付き (С ударением)', asyncio.run(udarenie(text)))
 
 st.write("\n")
 st.write("\n")
@@ -229,7 +229,7 @@ async def translation(words):
 
 try:
     translation_all = asyncio.run(translation(text))
-    st.text_input(""" 全訳 (Перевод всех слов)""", translation_all)
+    st.text_area(""" 全訳 (Перевод всех слов)""", translation_all)
 except:
     st.error('今月の翻訳上限超えました (Лимит поиска закончен в этом месяц)')
 
