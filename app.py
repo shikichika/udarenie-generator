@@ -39,7 +39,7 @@ morph_vocab = MorphVocab()
 morph_tagger = NewsMorphTagger(emb)
 
 import pickle
-with open (file="russian_accentuation/wordforms.dat", mode='rb') as f:
+with open (file="wordforms.dat", mode='rb') as f:
     wordforms = pickle.loads(f.read())
 
 words_dict = {}
