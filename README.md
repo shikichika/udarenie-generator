@@ -1,3 +1,4 @@
 # udarenie-generator
 
-https://shikichika-infinitive-generator-for-beginner-of-russ-app-cunw38.streamlit.app/
+You can see this site
+https://shikichika-udarenie-generator-app-sf71if.streamlit.app/
