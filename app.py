@@ -234,5 +234,4 @@ except:
     st.error('今月の翻訳上限超えました (Лимит поиска закончен в этом месяц)')
 
 st.caption("@shiki_yoshida")
-st.caption("問い合わせ・要望などはDMでお願いします　https://twitter.com/anya_ruski")
 st.caption("参考文献: https://habr.com/ru/post/575100/")
