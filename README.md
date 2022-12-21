@@ -1,6 +1,7 @@
 # udarenie-generator
 
-## You can see this app
+
+You can see this app
 https://shikichika-udarenie-generator-app-sf71if.streamlit.app/
 
 Russian accent, called udarenie, is difficult for those study in elementary level.
